@@ -5,13 +5,15 @@
 #include "alt_types.h"
 #include "io.h"
 #include "unistd.h"
+#include <stdio.h>
+#include <stdint.h>
 
 int main(void)
 {
-	int addr = 0x01;
-	int time = 50000;
+	int32_t addr = 0x01;
+	int32_t time = 50000;
 	
-	alt_printf("Dans le main\n");
+	alt_printf("Dans le main du led_chaser\n");
 	IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE, addr);
 	usleep(time);
 	

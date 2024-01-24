@@ -2,7 +2,7 @@ set_global_assignment -entity "lab1" -library "lab1" -name IP_TOOL_NAME "Qsys"
 set_global_assignment -entity "lab1" -library "lab1" -name IP_TOOL_VERSION "18.1"
 set_global_assignment -entity "lab1" -library "lab1" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "lab1" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../lab1.sopcinfo"]
-set_global_assignment -entity "lab1" -library "lab1" -name SLD_INFO "QSYS_NAME lab1 HAS_SOPCINFO 1 GENERATION_ID 1705101141"
+set_global_assignment -entity "lab1" -library "lab1" -name SLD_INFO "QSYS_NAME lab1 HAS_SOPCINFO 1 GENERATION_ID 1706053752"
 set_global_assignment -library "lab1" -name MISC_FILE [file join $::quartus(qip_path) "../lab1.cmp"]
 set_global_assignment -library "lab1" -name SLD_FILE [file join $::quartus(qip_path) "lab1.regmap"]
 set_global_assignment -library "lab1" -name SLD_FILE [file join $::quartus(qip_path) "lab1.debuginfo"]
@@ -16,7 +16,7 @@ set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_DISPLAY_
 set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_REPORT_HIERARCHY "On"
 set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_INTERNAL "Off"
 set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_VERSION "MS4w"
-set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcwNTEwMTE0MQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcwNjA1Mzc1Mg==::QXV0byBHRU5FUkFUSU9OX0lE"
 set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::TUFYIDEw::QXV0byBERVZJQ0VfRkFNSUxZ"
 set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::MTBNNTBEQUY0ODRDN0c=::QXV0byBERVZJQ0U="
 set_global_assignment -entity "lab1" -library "lab1" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Nw==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
@@ -30,10 +30,10 @@ set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_VERSION "MTguMQ=="
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_DESCRIPTION "Rm9yIHN5c3RlbXMgd2l0aCBtdWx0aXBsZSByZXNldCBpbnB1dHMsIHRoZSBNZXJsaW4gUmVzZXQgQ29udHJvbGxlciBPUnMgYWxsIHJlc2V0IGlucHV0cyBhbmQgZ2VuZXJhdGVzIGEgc2luZ2xlIHJlc2V0IG91dHB1dC4="
-set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "TlVNX1JFU0VUX0lOUFVUUw==::Mg==::TnVtYmVyIG9mIGlucHV0cw=="
+set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "TlVNX1JFU0VUX0lOUFVUUw==::MQ==::TnVtYmVyIG9mIGlucHV0cw=="
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "T1VUUFVUX1JFU0VUX1NZTkNfRURHRVM=::ZGVhc3NlcnQ=::T3V0cHV0IFJlc2V0IFN5bmNocm9ub3VzIEVkZ2Vz"
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "U1lOQ19ERVBUSA==::Mg==::U3luY2hyb25pemVyIGRlcHRo"
-set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRVUVTVF9QUkVTRU5U::MQ==::UmVzZXQgcmVxdWVzdCBsb2dpYyBlbmFibGU="
+set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRVUVTVF9QUkVTRU5U::MA==::UmVzZXQgcmVxdWVzdCBsb2dpYyBlbmFibGU="
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRX1dBSVRfVElNRQ==::MQ==::UmVzZXQgcmVxdWVzdCB3YWl0IHRpbWU="
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "TUlOX1JTVF9BU1NFUlRJT05fVElNRQ==::Mw==::TWluaW11bSByZXNldCBhc3NlcnRpb24gdGltZQ=="
 set_global_assignment -entity "altera_reset_controller" -library "lab1" -name IP_COMPONENT_PARAMETER "UkVTRVRfUkVRX0VBUkxZX0RTUlRfVElNRQ==::MQ==::UmVzZXQgcmVxdWVzdCBkZWFzc2VydCB0aW1pbmc="
@@ -1046,7 +1046,9 @@ set_global_assignment -entity "lab1_Buttons" -library "lab1" -name IP_COMPONENT_
 set_global_assignment -entity "lab1_Buttons" -library "lab1" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9pcnFfdHlwZQ==::RURHRQ==::ZGVyaXZlZF9pcnFfdHlwZQ=="
 set_global_assignment -entity "lab1_Buttons" -library "lab1" -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::dHJ1ZQ==::ZGVyaXZlZF9oYXNfaXJx"
 
-set_global_assignment -library "lab1" -name VERILOG_FILE [file join $::quartus(qip_path) "lab1.v"]
+set_global_assignment -library "lab1" -name VHDL_FILE [file join $::quartus(qip_path) "lab1.vhd"]
+set_global_assignment -library "lab1" -name VHDL_FILE [file join $::quartus(qip_path) "lab1_rst_controller.vhd"]
+set_global_assignment -library "lab1" -name VHDL_FILE [file join $::quartus(qip_path) "lab1_rst_controller_001.vhd"]
 set_global_assignment -library "lab1" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
 set_global_assignment -library "lab1" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
 set_global_assignment -library "lab1" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]

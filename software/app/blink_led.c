@@ -3,6 +3,6 @@
 
 int main(void)
 {
-	IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE, 0x01); // data 
+	IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE, 0x01); 
 	return 0;
 }
