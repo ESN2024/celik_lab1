@@ -23,7 +23,7 @@ Nous débuterons par la création d'une représentation schématique du système
 
 Suite à la création d'un nouveau projet sur Quartus, procéder à l'ouverture du Platform Designer afin d'intégrer tous les éléments requis.
 
-![image](https://github.com/ESN2024/celik_lab1/assets/117944504/7fe78234-9f81-4efc-a00f-7a1963b138c6)
+![image](https://github.com/ESN2024/celik_lab1/assets/117944504/eeeac7d8-bff9-4a61-b8c5-394a8e655614)
 
 Les composants à ajouter comprennent :
 
