@@ -62,15 +62,15 @@ Tout est prêt, nous allons maintenant écrire notre code C qui fonctionne sur n
 
 Dans le code, nous pouvons retrouver différentes versions. 
 
-- _Blink_led_ : Il s'agit du tout premier programme conçu spécifiquement pour initier les utilisateurs à la manipulation de la carte. Ce code introductif a pour objectif de fournir une expérience pratique dans le processus de programmation de la carte en question.
+- _Blink_led.c_ : Il s'agit du tout premier programme conçu spécifiquement pour initier les utilisateurs à la manipulation de la carte. Ce code introductif a pour objectif de fournir une expérience pratique dans le processus de programmation de la carte en question.
 
 https://github.com/ESN2024/celik_lab1/assets/117944504/e80960c5-7c2c-4be5-b077-6127342c6bd3
 
-- _LED_chaseur_ : Pour mettre en œuvre le chasseur de LED, j'ai opté pour une approche simple consistant à effectuer des décalages de bits vers la gauche en boucle démarrant de la LED 0 vers la LED 7 puis des décalages vers la droite de la LED 7 vers la LED 0. À chaque étape, j'ai introduit un délai en utilisant la commande "usleep()". Cette approche me permet non seulement de réaliser le chenillard LED mais également de réguler sa vitesse pendant la phase d'interrogation.
+- _LED_chaseur.c_ : Pour mettre en œuvre le chasseur de LED, j'ai opté pour une approche simple consistant à effectuer des décalages de bits vers la gauche en boucle démarrant de la LED 0 vers la LED 7 puis des décalages vers la droite de la LED 7 vers la LED 0. À chaque étape, j'ai introduit un délai en utilisant la commande "usleep()". Cette approche me permet non seulement de réaliser le chenillard LED mais également de réguler sa vitesse pendant la phase d'interrogation.
 
 https://github.com/ESN2024/celik_lab1/assets/117944504/be101fff-f32c-4a40-82ec-6f187470e7a2
 
-- _LED_chaseur_interruption_ : En ce qui concerne la gestion par interruption, j'ai introduit différentes fonctions pour prendre en charge ces événements. La fonction "key_interrupt()" gère les boutons, tandis que "sw_interrupt()" s'occupe des commutateurs. Dans la fonction principale, j'ai initialisé les interruptions en spécifiant les masques, les détections de bord, et les enregistrements d'interruption. Pour la fonction "key_interrupt()", elle vérifie quel bouton est enfoncé, déclenchant ainsi le chenillard LED ou le réinitialisant, tout en réinitialisant les variables associées à son contrôle. Dans la fonction "sw_interrupt()", je lis d'abord le registre où sont écrits les commutateurs. Ensuite, j'appelle ma fonction "nombre_bits_a_1()", qui renvoie le nombre de bits mis à 1 dans le registre. En fonction de ce nombre, je modifie la variable "time" pour ajuster la vitesse du chenillard LED.
+- _LED_chaseur_interruption.c_ : En ce qui concerne la gestion par interruption, j'ai introduit différentes fonctions pour prendre en charge ces événements. La fonction "key_interrupt()" gère les boutons, tandis que "sw_interrupt()" s'occupe des commutateurs. Dans la fonction principale, j'ai initialisé les interruptions en spécifiant les masques, les détections de bord, et les enregistrements d'interruption. Pour la fonction "key_interrupt()", elle vérifie quel bouton est enfoncé, déclenchant ainsi le chenillard LED ou le réinitialisant, tout en réinitialisant les variables associées à son contrôle. Dans la fonction "sw_interrupt()", je lis d'abord le registre où sont écrits les commutateurs. Ensuite, j'appelle ma fonction "nombre_bits_a_1()", qui renvoie le nombre de bits mis à 1 dans le registre. En fonction de ce nombre, je modifie la variable "time" pour ajuster la vitesse du chenillard LED.
 
 https://github.com/ESN2024/celik_lab1/assets/117944504/e88b1f84-cad2-4189-b592-c94441f073c7
 
